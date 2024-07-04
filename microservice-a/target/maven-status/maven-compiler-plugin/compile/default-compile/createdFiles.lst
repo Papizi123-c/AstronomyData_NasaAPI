@@ -1,0 +1,6 @@
+com\example\microservicea\client\MicroserviceBClient.class
+com\example\microservicea\model\AstronomyData.class
+com\example\microservicea\controller\UIController.class
+com\example\microservicea\MicroserviceAApplication.class
+com\example\microservicea\config\SwaggerConfig.class
+com\example\microservicea\controller\SwaggerController.class

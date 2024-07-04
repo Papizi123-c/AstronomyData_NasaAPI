@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Ilya Velikodny
+      changes:
+        - createTable:
+            tableName: astronomy_data
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: title
+                  type: varchar(255)
+              - column:
+                  name: url
+                  type: varchar(255)
+              - column:
+                  name: explanation
+                  type: text

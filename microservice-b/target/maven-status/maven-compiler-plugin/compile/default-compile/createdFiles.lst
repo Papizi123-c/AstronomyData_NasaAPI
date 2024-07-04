@@ -1,0 +1,7 @@
+com\example\microserviceb\controller\AstronomyController.class
+com\example\microserviceb\repository\AstronomyDataRepository.class
+com\example\microserviceb\MicroserviceBApplication.class
+com\example\microserviceb\model\NasaApiResponse.class
+com\example\microserviceb\client\NasaApiClient.class
+com\example\microserviceb\service\AstronomyService.class
+com\example\microserviceb\model\AstronomyData.class

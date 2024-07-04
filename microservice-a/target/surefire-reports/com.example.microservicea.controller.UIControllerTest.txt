@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.microservicea.controller.UIControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.235 s <<< FAILURE! - in com.example.microservicea.controller.UIControllerTest
+testGetAstronomyData  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'UIController': Unsatisfied dependency expressed through field 'microserviceBClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.microservicea.client.MicroserviceBClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.microservicea.client.MicroserviceBClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+
